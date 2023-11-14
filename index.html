@@ -1,0 +1,107 @@
+<style type="text/css">
+  .bg-black {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  }
+
+  .min-h-screen {
+    min-height: 100vh;
+  }
+
+  #glare {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: radial-gradient(hsl(154 5% 15%) 0%, hsl(154deg 35.34% 12.9%) 70%);
+  }
+
+  #text {
+    background: repeating-linear-gradient(transparent 0px 3px, hsl(154 0% 0%/0) 3px 4px);
+    z-index: 1;
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  #interlaced {
+    /* position: fixed; */
+    background: repeating-linear-gradient(transparent 0px 1px, hsl(154 0% 0%/.2) 3px 4px);
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .justify-between {
+    justify-content: space-between;
+  }
+
+  .flex-col {
+    flex-direction: column;
+  }
+
+  .max-w-4xl {
+    max-width: 56rem;
+  }
+
+  .min-h-screen {
+    min-height: 100vh;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .glow {
+    text-shadow: 0 0 5px hsl(154, 84%, 70%);
+    animation-duration: 1s;
+    animation-name: textShadow;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-size: 10px;
+  }
+
+  .text-green-300 {
+    --tw-text-opacity: 1;
+    color: rgb(134 239 172 / var(--tw-text-opacity));
+  }
+
+  .leading-none {
+    line-height: 1;
+  }
+
+  .font-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  }
+</style>
+
+<body class="bg-black">
+  <div id="text"></div>
+  <div id="interlaced"></div>
+  <div id="glare"></div>
+  <main class="max-w-4xl mx-auto pt-10 px-4 flex flex-col justify-between min-h-screen">
+    <pre
+      class="font-mono glow text-green-300 text-[7px] sm:text-[10px] lg:text-[14px] xl:text-[16px] pl-4 leading-none block overflow-hidden">
+                    __                         __
+                   /\ \                       /\ \
+    ___     ___    \_\ \      __     ___ ___  \ \ \____     __    _ __
+   /'___\  / __`\  /'_` \   /'__`\ /' __` __`\ \ \ '__`\  /'__`\ /\`'__\
+  /\ \__/ /\ \L\ \/\ \L\ \ /\  __/ /\ \/\ \/\ \ \ \ \L\ \/\  __/ \ \ \/
+  \ \____\\ \____/\ \___,_\\ \____\\ \_\ \_\ \_\ \ \_,__/\ \____\ \ \_\
+   \/____/ \/___/  \/__,_ / \/____/ \/_/\/_/\/_/  \/___/  \/____/  \/_/
+    </pre>
+  </main>
+</body>

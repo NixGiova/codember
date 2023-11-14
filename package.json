@@ -1,0 +1,23 @@
+{
+  "name": "codember",
+  "version": "1.0.0",
+  "description": "Repositorio con mis soluciones a Codember",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NixGiova/codember.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "@NixGiova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NixGiova/codember/issues"
+  },
+  "homepage": "https://github.com/NixGiova/codember#readme"
+}
