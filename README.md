@@ -1,5 +1,3 @@
-# Codember
-
 ![Alt text](./assets/image.png)
 
 Repositorio con mis soluciones a Codember
