@@ -9,9 +9,9 @@ Repositorio con mis soluciones a Codember
 <details>
 <summary>Retos</summary>
 
-| #   | Reto                                              | Código                                      |
-| --- | ------------------------------------------------- | ------------------------------------------- |
-| 1   | _[Contar Palabras](./src/challenge-01/README.md)_ | **[Solución](./src/challenge-01/index.js)** |
-| 2   | _[Mini compiler](./src/challenge-02/README.md)_   | **[Solución](./src/challenge-02/index.js)** |
+| #   | Reto                                                   | Código                                           |
+| --- | ------------------------------------------------------ | ------------------------------------------------ |
+| 1   | _[Contar Palabras](./src/2023/challenge-01/README.md)_ | **[Solución](./src/2023/challenge-01/index.js)** |
+| 2   | _[Mini compiler](./src/2023/challenge-02/README.md)_   | **[Solución](./src/2023/challenge-02/index.js)** |
 
 </details>
