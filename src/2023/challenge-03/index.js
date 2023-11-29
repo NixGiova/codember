@@ -11,3 +11,5 @@ const result = textInput.split('\n').filter((line) => {
   return !(numberLetter >= range[0] && numberLetter <= range[1])
 })
 console.log(result[41])
+
+console.log(result[41])
