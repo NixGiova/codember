@@ -12,4 +12,4 @@ const result = textInput.split('\n').filter((line) => {
 })
 console.log(result[41])
 
-console.log(result[41])
+console.log(result[12])
