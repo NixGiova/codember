@@ -21,8 +21,8 @@ function verify(id, userName, email, age, location) {
   return true
 }
 
-const filesName = textInput.split('\n')
-const message = filesName.reduce((acc, user) => {
+const users = textInput.split('\n')
+const message = users.reduce((acc, user) => {
   const [id, userName, email, age, location] = user.split(',')
   const isValid = verify(id, userName, email, age, location)
   if (!isValid) {
